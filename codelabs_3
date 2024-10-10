@@ -1,0 +1,22 @@
+fun main() {
+  asignaturasUlpgc();
+  miAsignaturaFavorita();
+  notaAsignatura();
+
+}
+
+fun asignaturasUlpgc() {
+    println("ASO")
+    println("PAMN")
+    println("SIO")
+}
+
+
+fun miAsignaturaFavorita(): String {
+    return "PAMN"
+}
+
+fun notaAsignatura(name: Int): String {
+    "
+    return  "Obtuve un $name en la asignatura de PAMN"
+}
